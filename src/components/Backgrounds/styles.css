@@ -1,0 +1,44 @@
+.wave-dark,
+.wave-darker {
+  bottom: 0;
+  left: 0;
+  line-height: 0;
+  overflow: hidden;
+  position: absolute;
+  transform: rotate(180deg);
+  width: 100%;
+}
+
+.wave-dark svg,
+.wave-darker svg {
+  display: block;
+  height: 206px;
+  position: relative;
+  width: calc(147% + 1.3px);
+}
+
+.wave-dark .shape-fill {
+  fill: #212121;
+}
+
+.wave-darker .shape-fill {
+  fill: #262626;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .wave-dark svg,
+  .wave-darker svg {
+    height: 303px;
+    width: calc(147% + 1.3px);
+  }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .wave-dark svg,
+  .wave-darker svg {
+    height: 155px;
+    width: calc(176% + 1.3px);
+  }
+}
