@@ -1,0 +1,23 @@
+.about-container {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+  }
+  
+  .about-left {
+    flex: 0.2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1rem;
+  }
+  
+  .about-right {
+    flex: 0.7;
+  }
+  
+  .tech-stack-heading {
+    font-family: "Montserrat", sans-serif;
+    margin: 1rem 0;
+    color: #0fb;
+  }
