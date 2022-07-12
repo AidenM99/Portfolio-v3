@@ -1,0 +1,30 @@
+.fa-github {
+  color: #fff;
+  margin-top: 2rem;
+  transition: all 0.5s;
+}
+
+.fa-github:hover {
+  color: #0fb;
+  transition: all 0.5s;
+}
+
+.skill-icon-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem 1rem 0 0;
+  width: 100px;
+}
+
+.skill-icons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill-icon-container > p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin: 0.5rem 0 0 0;
+}
