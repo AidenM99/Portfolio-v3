@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import Avatar from "../../components/Avatar/Avatar";
 import Button from "../../components/Button/Button";
 import AvatarImg from "../../assets/images/avatar.png";
@@ -73,7 +74,11 @@ const About = () => {
               <p>I'm proficient with the following technologies:</p>
               <div className="skill-icons">
                 {icons.map((icon) => (
-                  <SkillIcon icon={icon.icon} text={icon.text} />
+                  <SkillIcon
+                    key={icon.text}
+                    icon={icon.icon}
+                    text={icon.text}
+                  />
                 ))}
               </div>
             </div>
