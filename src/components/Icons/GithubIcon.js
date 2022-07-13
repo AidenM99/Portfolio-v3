@@ -7,7 +7,7 @@ const Icon = () => {
         rel="noreferrer"
         aria-label="Github"
       >
-        <i className="fa-brands fa-github fa-3x"></i>
+        <i className="fa-brands fa-github fa-3x github-icon"></i>
       </a>
     </div>
   );
