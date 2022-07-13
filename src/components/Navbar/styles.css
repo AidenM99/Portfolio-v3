@@ -1,7 +1,7 @@
 header {
   background-color: rgba(33, 33, 33, 0.7);
   left: 0;
-  padding: 0.75rem;
+  padding: 0.75rem 2rem;
   position: fixed;
   top: 0;
   width: 100%;
@@ -37,6 +37,10 @@ header {
   text-transform: uppercase;
 }
 
+.nav-item:nth-child(3) {
+  margin-right: 0;
+}
+
 .nav-logo {
   color: #fff;
   cursor: pointer;
@@ -49,4 +53,18 @@ header {
   color: #0fb;
   transform: scale(1.1);
   transition: all 0.5s;
+}
+
+.hamburger-react {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav-item {
+    display: none;
+  }
+
+  .hamburger-react {
+    display: block;
+  }
 }
