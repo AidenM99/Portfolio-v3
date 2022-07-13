@@ -1,23 +1,41 @@
 .about-container {
-    display: flex;
-    margin-top: 2rem;
-    justify-content: center;
-  }
-  
-  .about-left {
-    flex: 0.2;
-    display: flex;
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.about-left {
+  flex: 0.2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.about-right {
+  flex: 0.7;
+}
+
+.tech-stack-heading {
+  font-family: "Montserrat", sans-serif;
+  margin: 1rem 0;
+  color: #0fb;
+}
+
+.skill-icons {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-gap: 1rem;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .about-container {
     flex-direction: column;
-    align-items: center;
-    margin-right: 1rem;
+    text-align: center;
   }
-  
-  .about-right {
-    flex: 0.7;
+
+  .about-left {
+    margin: 0;
   }
-  
-  .tech-stack-heading {
-    font-family: "Montserrat", sans-serif;
-    margin: 1rem 0;
-    color: #0fb;
-  }
+}
