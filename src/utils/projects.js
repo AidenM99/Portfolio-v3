@@ -30,8 +30,8 @@ const myProjects = [
       { icon: firebase, text: "Firebase" },
     ],
     icon: <ProjectIcon icon={"fa-solid fa-comment fa-10x project-icon"} />,
-    preview: "https://github.com/AidenM99/Chat-App",
-    code: "https://chat-app-4cf40.web.app/",
+    code: "https://github.com/AidenM99/Chat-App",
+    preview: "https://chat-app-4cf40.web.app/",
   },
   {
     title: "Component Nexus",
@@ -46,8 +46,8 @@ const myProjects = [
       { icon: materialui, text: "Material UI" },
     ],
     icon: <ProjectIcon icon={"fa-solid fa-bag-shopping fa-10x project-icon"} />,
-    preview: "https://github.com/AidenM99/Component-Nexus/",
-    code: "https://aidenm99.github.io/Component-Nexus/",
+    code: "https://github.com/AidenM99/Component-Nexus/",
+    preview: "https://aidenm99.github.io/Component-Nexus/",
   },
   {
     title: "Battleship",
@@ -61,8 +61,8 @@ const myProjects = [
       { icon: sass, text: "Sass" },
     ],
     icon: <ProjectIcon icon={"fa-solid fa-ship fa-10x project-icon"} />,
-    preview: "https://github.com/AidenM99/Battleship",
-    code: "https://aidenm99.github.io/Battleship/",
+    code: "https://github.com/AidenM99/Battleship",
+    preview: "https://aidenm99.github.io/Battleship/",
   },
   {
     title: "CV Creator",
@@ -78,8 +78,8 @@ const myProjects = [
       { icon: sass, text: "Sass" },
     ],
     icon: <ProjectIcon icon={"fa-solid fa-address-card fa-10x project-icon"} />,
-    preview: "https://github.com/AidenM99/CV-Creator",
-    code: "https://aidenm99.github.io/CV-Creator/",
+    code: "https://github.com/AidenM99/CV-Creator",
+    preview: "https://aidenm99.github.io/CV-Creator/",
   },
   {
     title: "Weather App",
@@ -92,8 +92,8 @@ const myProjects = [
       { icon: javascript, text: "JavaScript" },
     ],
     icon: <ProjectIcon icon={"fa-solid fa-cloud  fa-10x project-icon"} />,
-    preview: "https://github.com/AidenM99/Weather-App",
-    code: "https://aidenm99.github.io/Weather-App/",
+    code: "https://github.com/AidenM99/Weather-App",
+    preview: "https://aidenm99.github.io/Weather-App/",
   },
 ];
 
