@@ -18,17 +18,28 @@ const Project = ({
       }
     >
       <div className="project-buttons">
-        <Button innerText={"View The Code"} link={preview} />
-        <Button innerText={"Live Demo"} link={code} />
+        <Button innerText={"View The Code"} link={code} />
+        <Button innerText={"Live Demo"} link={preview} />
         {icon}
       </div>
       <div className="project-content">
         <h3 className="project-title">{title}</h3>
         <p className="project-summary">{summary}</p>
         <div>
-          <div className="project-image-container">
-            <img className="project-image" alt="projectimage" src={image}></img>
-          </div>
+          <a
+            className="project-image-link"
+            href={preview}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="project-image-container">
+              <img
+                className="project-image"
+                alt="projectimage"
+                src={image}
+              ></img>
+            </div>
+          </a>
           <h3 className="technologies-used-heading">Technologies Used</h3>
           <div className="skill-icons">
             {technologies.map((technology) => (
