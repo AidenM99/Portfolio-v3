@@ -1,4 +1,4 @@
-import DarkWavyBg from "../../components/Backgrounds/DarkWavyBg";
+import DarkWavyBg from "../Backgrounds/DarkWavyBg";
 
 const Hero = () => {
   return (
