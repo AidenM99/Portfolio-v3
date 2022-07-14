@@ -1,6 +1,5 @@
 .github-icon {
   color: #fff;
-  margin-top: 2rem;
   transition: all 0.5s;
 }
 
@@ -9,11 +8,24 @@
   transition: all 0.5s;
 }
 
+.project-icon {
+  color: rgba(255, 255, 255, 0.04);
+}
+
+.skill-icons {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+  column-gap: 5rem;
+  row-gap: 1rem;
+  justify-content: center;
+}
+
 .skill-icon-container {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
 }
 
 .skill-icon-container > p {
@@ -22,8 +34,19 @@
   margin: 0.5rem 0 0 0;
 }
 
+@media (max-width: 919px) {
+  .project-icon {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
   .github-icon {
     margin-bottom: 1rem;
+  }
+
+  .tech-icon {
+    height: 30px;
+    width: 30px;
   }
 }
