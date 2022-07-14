@@ -1,19 +1,22 @@
-button {
-  -webkit-appearance: none;
+.button-container {
+  width: 100%;
 }
 
 .button {
   background: linear-gradient(to left, transparent 50%, #0fb 50%) right;
   background-size: 200%;
   border: 1px solid #0fb;
+  border-radius: 5px;
   color: #fff;
   cursor: pointer;
   font-weight: 400;
   letter-spacing: 1.5px;
-  margin-top: 2rem;
+  margin-bottom: 2rem;
+  max-width: 250px;
   padding: 0.9rem 2.5rem;
   text-transform: uppercase;
   transition: all 0.5s;
+  width: 100%;
 }
 
 .button:hover {
