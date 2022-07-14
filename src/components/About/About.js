@@ -18,7 +18,12 @@ const About = () => {
         <div className="about-container">
           <div className="about-left">
             <Avatar source={AvatarImg} />
-            <Button innerText={"download cv"} link={"#"} />
+            <Button
+              innerText={"view my cv"}
+              link={
+                "https://drive.google.com/file/d/1gTdseCoWP3dONiBF3te79WDiTuGCtnGf/view?usp=sharing"
+              }
+            />
             <GithubIcon />
           </div>
           <div className="about-right">
