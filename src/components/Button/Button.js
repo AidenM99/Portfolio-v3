@@ -1,8 +1,13 @@
-const Button = ({ innerText }) => {
+const Button = ({ innerText, link }) => {
   return (
-    <div className="button-container">
+    <a
+      className="button-container"
+      href={link}
+      target="_blank"
+      rel="noreferrer"
+    >
       <button className="button">{innerText}</button>
-    </div>
+    </a>
   );
 };
 
