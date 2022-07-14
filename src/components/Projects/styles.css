@@ -1,0 +1,61 @@
+.project-container {
+  display: flex;
+  margin: 2rem 0 8rem 0;
+}
+
+.project-buttons {
+  align-items: center;
+  display: flex;
+  flex: 0.2;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+.project-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.75rem;
+}
+
+.project-content {
+  flex: 0.8;
+}
+
+.project-image {
+  border-radius: 10px;
+  height: auto;
+  width: 100%;
+}
+
+.project-image-container {
+  width: 100%;
+}
+
+.technologies-used-heading {
+  font-family: "Montserrat", sans-serif;
+  margin: 1rem 0;
+}
+
+.project-title {
+  margin-bottom: 2rem;
+}
+
+.project-summary {
+  margin-bottom: 1rem;
+}
+
+.reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 919px) {
+  .project-container {
+    flex-direction: column-reverse;
+  }
+
+  .project-buttons {
+    margin: auto;
+    margin-top: 5rem;
+  }
+}
