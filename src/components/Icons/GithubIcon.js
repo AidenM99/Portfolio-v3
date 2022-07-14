@@ -1,4 +1,4 @@
-const Icon = () => {
+const GithubIcon = () => {
   return (
     <div className="icon-container">
       <a
@@ -13,4 +13,4 @@ const Icon = () => {
   );
 };
 
-export default Icon;
+export default GithubIcon;
