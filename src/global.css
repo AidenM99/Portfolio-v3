@@ -22,6 +22,10 @@ section {
   position: relative;
 }
 
+a {
+  text-decoration: none;
+}
+
 .section-darker {
   background-color: #212121;
 }
