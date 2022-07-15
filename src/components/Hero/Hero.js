@@ -2,7 +2,7 @@ import DarkWavyBg from "../Backgrounds/DarkWavyBg";
 
 const Hero = () => {
   return (
-    <section className="hero-section">
+    <section id="hero" className="hero-section">
       <h1 className="hero-name">Aiden McNaughton</h1>
       <DarkWavyBg />
     </section>
