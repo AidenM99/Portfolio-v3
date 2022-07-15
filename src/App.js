@@ -1,7 +1,8 @@
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
-import Projects from "./components/Projects/Projects";
 import NavBar from "./components/Navbar/NavBar";
+import Contact from "./components/Contact/Contact";
+import Projects from "./components/Projects/Projects";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Projects />
       <About />
+      <Contact />
     </>
   );
 }

@@ -1,0 +1,54 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: #262626;
+  border: none;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  padding: 0.625rem;
+  width: 500px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+}
+
+.contact-form #subject,
+.contact-form #name,
+.contact-form #email {
+  margin-bottom: 0.3rem;
+}
+
+.contact-form #message {
+  margin-bottom: 1rem;
+}
+
+.contact-form #message {
+  height: 7.5rem;
+}
+
+.contact-para {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+#message {
+  resize: none;
+}
+
+@media (max-width: 516px) {
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+  }
+}

@@ -24,3 +24,13 @@
   color: #000;
   transition: all 0.5s;
 }
+
+.submit-button-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.submit-button-container .button {
+  width: fit-content;
+}
