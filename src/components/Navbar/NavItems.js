@@ -4,20 +4,20 @@ const NavItems = () => {
   return (
     <ul className="nav-items">
       <div className="nav-left">
-        <a href="#hero">
-          <span className="nav-logo">A</span>
-        </a>
+        <span className="nav-logo">
+          <a href="#hero">A</a>
+        </span>
       </div>
       <div className="nav-right">
-        <a href="#projects">
-          <li className="nav-item">Projects</li>
-        </a>
-        <a href="#about">
-          <li className="nav-item">About</li>
-        </a>
-        <a href="#contact">
-          <li className="nav-item">Contact</li>
-        </a>
+        <li className="nav-item">
+          <a href="#projects">Projects</a>
+        </li>
+        <li className="nav-item">
+          <a href="#about">About</a>
+        </li>
+        <li className="nav-item">
+          <a href="#contact">Contact</a>
+        </li>
         <Hamburger color="#fff" />
       </div>
     </ul>
