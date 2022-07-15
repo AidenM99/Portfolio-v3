@@ -1,9 +1,12 @@
-.github-icon {
+.github-icon,
+.email-icon {
   color: #fff;
+  cursor: pointer;
   transition: all 0.5s;
 }
 
-.github-icon:hover {
+.github-icon:hover,
+.email-icon:hover {
   color: #0fb;
   transition: all 0.5s;
 }

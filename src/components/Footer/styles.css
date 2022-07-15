@@ -1,0 +1,44 @@
+footer {
+  background-color: #262626;
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+  position: relative;
+}
+
+.footer-icons {
+  display: flex;
+}
+
+.footer-icons > :first-child {
+  margin-right: 3rem;
+}
+
+.return-home-container {
+  cursor: pointer;
+  height: 30px;
+  position: absolute;
+  width: 30px;
+  top: -13px;
+}
+
+.return-home-container:hover {
+  animation: bounce 1s infinite;
+}
+
+.return-home {
+  height: 100%;
+  width: 100%;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-7.5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
