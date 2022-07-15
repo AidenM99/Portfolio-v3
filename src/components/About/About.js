@@ -9,7 +9,8 @@ import SectionHeading from "../SectionHeading/SectionHeading";
 
 const About = () => {
   return (
-    <section id="about" className="section-dark">
+    <section className="section-dark">
+      <a href="#" className="anchor" id="about"></a>
       <div className="content-section">
         <SectionHeading
           text={"about"}

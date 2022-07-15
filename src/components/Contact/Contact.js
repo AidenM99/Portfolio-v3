@@ -3,7 +3,8 @@ import ContactForm from "./ContactForm";
 
 const Contact = () => {
   return (
-    <section id="contact" className="section-darker">
+    <section className="section-darker">
+      <a href="#" className="anchor" id="contact"></a>
       <div className="content-section">
         <SectionHeading
           text={"contact"}

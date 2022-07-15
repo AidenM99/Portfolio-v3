@@ -27,6 +27,13 @@ a {
   color: inherit;
 }
 
+a.anchor {
+  display: block;
+  position: relative;
+  top: -98px;
+  visibility: hidden;
+}
+
 .section-darker {
   background-color: #212121;
 }
