@@ -21,7 +21,7 @@ const About = () => {
             <Avatar source={AvatarImg} />
             <a
               className="button-container"
-              href="https://drive.google.com/file/d/1gTdseCoWP3dONiBF3te79WDiTuGCtnGf/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Pr6fW4q_J95Cx5C22WbeVhQ7tkX3yTKS/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
