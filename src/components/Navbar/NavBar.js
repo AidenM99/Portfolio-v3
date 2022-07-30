@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Squash as Hamburger } from "hamburger-react";
 
 const NavBar = () => {
-  const navMenuLinks = ["About", "Projects", "Contact"];
+  const navMenuLinks = ["Projects", "About", "Contact"];
   const [isOpen, setOpen] = useState(false);
   const mql = window.matchMedia("(min-width: 768px)");
 
