@@ -80,7 +80,7 @@ header {
 }
 
 .nav-menu-link {
-  font-size: 5vw;
+  font-size: clamp(1rem, 5vw, 2.4rem);
   margin-bottom: 5rem;
 }
 
