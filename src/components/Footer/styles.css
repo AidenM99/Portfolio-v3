@@ -10,8 +10,9 @@ footer {
   display: flex;
 }
 
-.footer-icons > :first-child {
-  margin-right: 3rem;
+.footer-icons div:nth-child(1),
+.footer-icons div:nth-child(2) {
+  margin-right: 1rem;
 }
 
 .return-home-container {

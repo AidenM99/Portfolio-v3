@@ -1,6 +1,7 @@
 import EmailIcon from "../Icons/EmailIcon";
 import GithubIcon from "../Icons/GithubIcon";
 import ReturnHome from "../../assets/images/return-home.png";
+import LinkedInIcon from "../Icons/LinkedInIcon";
 
 const Footer = () => {
   return (
@@ -11,6 +12,7 @@ const Footer = () => {
       <div className="footer-icons">
         <GithubIcon />
         <EmailIcon />
+        <LinkedInIcon />
       </div>
     </footer>
   );

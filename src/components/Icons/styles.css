@@ -1,12 +1,14 @@
 .github-icon,
-.email-icon {
+.email-icon,
+.linkedin-icon {
   color: #fff;
   cursor: pointer;
   transition: all 0.5s;
 }
 
 .github-icon:hover,
-.email-icon:hover {
+.email-icon:hover,
+.linkedin-icon:hover {
   color: #0fb;
   transition: all 0.5s;
 }
@@ -35,6 +37,15 @@
   font-size: 0.9rem;
   font-weight: 500;
   margin: 0.5rem 0 0 0;
+}
+
+.tech-icon {
+  transition: all 0.5s;
+}
+
+.tech-icon:hover {
+  transition: all 0.5s;
+  transform: translateY(-7.5px);
 }
 
 @media (max-width: 919px) {

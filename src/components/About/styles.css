@@ -24,7 +24,20 @@
 .tech-stack-heading {
   font-family: "Montserrat", sans-serif;
   margin: 1rem 0;
-  color: #0fb;
+  color: #fff;
+}
+
+.highlighted-link {
+  background-color: rgba(255, 255, 255, 1);
+  color: #000;
+}
+
+.about-icons-container {
+  display: flex;
+}
+
+.about-icons-container > :first-child {
+  margin-right: 2rem;
 }
 
 @media (max-width: 768px) {

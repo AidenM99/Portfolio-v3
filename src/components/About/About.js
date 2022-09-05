@@ -6,6 +6,7 @@ import DarkWavyBg from "../Backgrounds/DarkWavyBg";
 import AboutMe from "./AboutMe";
 import Skills from "./Skills";
 import SectionHeading from "../SectionHeading/SectionHeading";
+import LinkedInIcon from "../Icons/LinkedInIcon";
 
 const About = () => {
   return (
@@ -21,13 +22,16 @@ const About = () => {
             <Avatar source={AvatarImg} />
             <a
               className="button-container"
-              href="https://drive.google.com/file/d/1Pr6fW4q_J95Cx5C22WbeVhQ7tkX3yTKS/view?usp=sharing"
+              href="https://drive.google.com/file/d/19_lfKdahh1UiCoufDyt6TBZf2PoTAjxV/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
               <Button type="button" text={"view my cv"} />
             </a>
-            <GithubIcon />
+            <div className="about-icons-container">
+              <GithubIcon />
+              <LinkedInIcon />
+            </div>
           </div>
           <div className="about-right">
             <AboutMe />
