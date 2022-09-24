@@ -20,14 +20,6 @@ const About = () => {
         <div className="about-container">
           <div className="about-left">
             <Avatar source={AvatarImg} />
-            <a
-              className="button-container"
-              href="https://drive.google.com/file/d/19_lfKdahh1UiCoufDyt6TBZf2PoTAjxV/view?usp=sharing"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Button type="button" text={"view my cv"} />
-            </a>
             <div className="about-icons-container">
               <GithubIcon />
               <LinkedInIcon />
